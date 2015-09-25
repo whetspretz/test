@@ -12,7 +12,6 @@
   },
   "keywords": [
     "ui",
-    "ui",
     "kit",
     "styleguide"
   ],
@@ -21,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/WeConnect/oui/issues"
   },
-  "homepage": "https://github.com/WeConnect/oui#readme"
+  "homepage": "https://github.com/WeConnect/oui#readme",
+  "dependencies": {
+    "semantic-ui": "^2.1.4"
+  }
 }
