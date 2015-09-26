@@ -13,10 +13,8 @@
       "compressed": "../dist/components/",
       "themes": "../dist/themes/"
     },
-    "clean": "dist/"
+    "clean": "../dist/"
   },
-  "permission": false,
-  "rtl": false,
   "components": [
     "reset",
     "site",

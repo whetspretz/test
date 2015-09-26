@@ -1,3 +1,4 @@
 /semantic
 /node_modules
+/examples
 gulpfile.js
