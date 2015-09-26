@@ -1,8 +1,8 @@
 {
   "name": "@wework-dev/oui",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "WeWork UI Kit",
-  "main": "index.js",
+  "main": "dist",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,8 @@
   "keywords": [
     "ui",
     "kit",
-    "styleguide"
+    "styleguide",
+    "oui"
   ],
   "author": "WeWork Dev <dev-team@wework.com> (http://engineering.wework.com)",
   "license": "ISC",
