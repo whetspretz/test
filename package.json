@@ -10,7 +10,6 @@
     "type": "git",
     "url": "git+https://github.com/WeConnect/oui.git"
   },
-  "private": true,
   "keywords": [
     "ui",
     "kit",
