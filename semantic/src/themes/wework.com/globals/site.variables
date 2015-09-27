@@ -1,0 +1,56 @@
+/*******************************
+     User Global Variables
+*******************************/
+
+/*-------------------
+       Fonts
+--------------------*/
+@fontName          : 'Apercu Regular';
+
+@headerFont        : @fontName, 'Helvetica Neue', Calibri, Roboto, sans-serif;
+@pageFont          : @fontName, 'Helvetica Neue', Calibri, Roboto, sans-serif;
+
+@importGoogleFonts : false;
+
+
+/*-------------------
+    Border Radius
+--------------------*/
+@relativeBorderRadius: 0;
+@absoluteBorderRadius: 0;
+
+@defaultBorderRadius: @absoluteBorderRadius;
+
+/*--------------
+   Form Input
+---------------*/
+@inputVerticalPadding   : @relative14px;
+
+
+/*-------------------
+        Sizes
+--------------------*/
+@miniSize        : (9 / 14);
+@tinySize        : (10 / 14);
+@smallSize       : (12 / 14);
+@mediumSize      : (13 / 14);
+@largeSize       : (16 / 14);
+@bigSize         : (18 / 14);
+@hugeSize        : (20 / 14);
+@massiveSize     : (24 / 14);
+
+
+/*-------------------
+      Site Colors
+--------------------*/
+@anchorage        : #252729;
+@venice           : #F3DE61;
+@yellow           : @venice;
+@lightYellow      : @venice;
+
+
+/*-------------------
+    Brand Colors
+--------------------*/
+@primaryColor        : @anchorage;
+@secondaryColor      : @venice;

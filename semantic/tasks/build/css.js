@@ -21,6 +21,8 @@ var
   print        = require('gulp-print'),
   rename       = require('gulp-rename'),
   replace      = require('gulp-replace'),
+  // sourcemaps   = require('gulp-sourcemaps'),
+  // uncss        = require('gulp-uncss'),
 
   // config
   config       = require('../config/user'),
@@ -60,6 +62,7 @@ module.exports = function(callback) {
   // unified css stream
   stream = gulp.src(source.definitions + '/**/' + globs.components + '.less')
     .pipe(plumber(settings.plumber.less))
+    // .pipe(sourcemaps.init())
     .pipe(less(settings.less))
     .pipe(autoprefixer(settings.prefix))
     .pipe(replace(comments.variables.in, comments.variables.out))
@@ -79,6 +82,7 @@ module.exports = function(callback) {
     .pipe(plumber())
     .pipe(replace(assets.source, assets.uncompressed))
     .pipe(gulpif(config.hasPermission, chmod(config.permission)))
+    // .pipe(sourcemaps.write())
     .pipe(gulp.dest(output.uncompressed))
     .pipe(print(log.created))
     .on('end', function() {
@@ -94,6 +98,7 @@ module.exports = function(callback) {
     .pipe(minifyCSS(settings.minify))
     .pipe(rename(settings.rename.minCSS))
     .pipe(gulpif(config.hasPermission, chmod(config.permission)))
+    // .pipe(sourcemaps.write())
     .pipe(gulp.dest(output.compressed))
     .pipe(print(log.created))
     .on('end', function() {

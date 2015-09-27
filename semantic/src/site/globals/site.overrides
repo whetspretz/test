@@ -1,9 +1,3 @@
 /*******************************
          Site Overrides
 *******************************/
-
-body {
-  font-size-adjust: 0.508;
-  font-weight: normal;
-  font-style: normal;
-}

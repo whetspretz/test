@@ -149,17 +149,24 @@ input::selection {
 
 
 /*******************************
-        Global Overrides
+         Site Overrides
 *******************************/
 
+html.wf-loading {
+  visibility: hidden;
+}
+html.wf-active,
+html.wf-inactive {
+  visibility: visible;
+}
+body {
+  font-size-adjust: 0.508;
+  font-weight: normal;
+  font-style: normal;
+}
 
 
 /*******************************
          Site Overrides
 *******************************/
 
-body {
-  font-size-adjust: 0.508;
-  font-weight: normal;
-  font-style: normal;
-}

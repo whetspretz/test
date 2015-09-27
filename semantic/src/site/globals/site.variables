@@ -1,36 +1,3 @@
 /*******************************
      User Global Variables
 *******************************/
-
-/*-------------------
-       Fonts
---------------------*/
-
-@fontName          : 'Apercu Regular';
-
-@headerFont        : @fontName, 'Helvetica Neue', Calibri, Roboto, sans-serif;
-@pageFont          : @fontName, 'Helvetica Neue', Calibri, Roboto, sans-serif;
-
-@importGoogleFonts : false;
-
-
-/*-------------------
-    Border Radius
---------------------*/
-@relativeBorderRadius: 0;
-@absoluteBorderRadius: 0;
-
-
-/*-------------------
-      Site Colors
---------------------*/
-@anchorage        : #252729;
-@venice           : #F3DE61;
-@yellow           : @venice;
-
-
-/*-------------------
-    Brand Colors
---------------------*/
-@primaryColor        : @anchorage;
-@secondaryColor      : @venice;

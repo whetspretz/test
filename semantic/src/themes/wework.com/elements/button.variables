@@ -1,0 +1,12 @@
+/*******************************
+    User Variable Overrides
+*******************************/
+
+@fontWeight: normal;
+@basicFontWeight: @fontWeight;
+
+@textTransform: uppercase;
+@basicTextTransform: @textTransform;
+@basicBorderRadius: 0;
+
+@yellowTextColor: @primaryColor;

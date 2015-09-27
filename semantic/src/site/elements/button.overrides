@@ -1,9 +1,3 @@
 /*******************************
          Site Overrides
 *******************************/
-
-.ui.buttons .button,
-.ui.buttons .or,
-.ui.button {
-  font-size: 13px;
-}

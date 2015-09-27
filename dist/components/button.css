@@ -25,10 +25,10 @@
   color: rgba(0, 0, 0, 0.6);
   font-family: 'Apercu Regular', 'Helvetica Neue', Calibri, Roboto, sans-serif;
   margin: 0em 0.25em 0em 0em;
-  padding: 0.78571429em 1.5em 0.78571429em;
+  padding: 1em 1.5em 1em;
   text-transform: uppercase;
   text-shadow: none;
-  font-weight: bold;
+  font-weight: normal;
   line-height: 1em;
   font-style: normal;
   text-align: center;
@@ -417,7 +417,7 @@
           align-items: center;
   margin: 0px 0px 0px -1px !important;
   padding: '';
-  font-size: 1em;
+  font-size: 0.92857143em;
   border-color: rgba(34, 36, 38, 0.15);
 }
 
@@ -509,102 +509,12 @@
   text-shadow: none;
 }
 
-/* Linked In */
-.ui.linkedin.button {
-  background-color: #1F88BE;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-.ui.linkedin.button:hover {
-  background-color: #147baf;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-.ui.linkedin.button:active {
-  background-color: #186992;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* YouTube */
-.ui.youtube.button {
-  background-color: #CC181E;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-.ui.youtube.button:hover {
-  background-color: #bd0d13;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-.ui.youtube.button:active {
-  background-color: #9e1317;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Instagram */
-.ui.instagram.button {
-  background-color: #49769C;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-.ui.instagram.button:hover {
-  background-color: #3d698e;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-.ui.instagram.button:active {
-  background-color: #395c79;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* Pinterest */
-.ui.pinterest.button {
-  background-color: #00ACED;
-  color: #FFFFFF;
-  text-shadow: none;
-  background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-.ui.pinterest.button:hover {
-  background-color: #0099d4;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-.ui.pinterest.button:active {
-  background-color: #0087ba;
-  color: #FFFFFF;
-  text-shadow: none;
-}
-
-/* VK */
-.ui.vk.button {
-  background-color: #4D7198;
-  color: #FFFFFF;
-  background-image: none;
-  box-shadow: 0px 0em 0px 0px rgba(34, 36, 38, 0.15) inset;
-}
-.ui.vk.button:hover {
-  background-color: #41648a;
-  color: #FFFFFF;
-}
-.ui.vk.button:active {
-  background-color: #3c5876;
-  color: #FFFFFF;
-}
-
 /*--------------
      Icon
 ---------------*/
 
 .ui.button > .icon:not(.button) {
-  height: 0.85714286em;
+  height: 0.71428571em;
   opacity: 0.8;
   margin: 0em 0.42857143em 0em -0.21428571em;
   -webkit-transition: opacity 0.1s ease;
@@ -645,15 +555,15 @@
 
 .ui.compact.buttons .button,
 .ui.compact.button {
-  padding: 0.58928571em 1.125em 0.58928571em;
+  padding: 0.75em 1.125em 0.75em;
 }
 .ui.compact.icon.buttons .button,
 .ui.compact.icon.button {
-  padding: 0.58928571em 0.58928571em 0.58928571em;
+  padding: 0.75em 0.75em 0.75em;
 }
 .ui.compact.labeled.icon.buttons .button,
 .ui.compact.labeled.icon.button {
-  padding: 0.58928571em 3.69642857em 0.58928571em;
+  padding: 0.75em 4.125em 0.75em;
 }
 
 /*-------------------
@@ -663,22 +573,22 @@
 .ui.mini.buttons .button,
 .ui.mini.buttons .or,
 .ui.mini.button {
-  font-size: 0.71428571rem;
+  font-size: 0.64285714rem;
 }
 .ui.tiny.buttons .button,
 .ui.tiny.buttons .or,
 .ui.tiny.button {
-  font-size: 0.85714286rem;
+  font-size: 0.71428571rem;
 }
 .ui.small.buttons .button,
 .ui.small.buttons .or,
 .ui.small.button {
-  font-size: 0.92857143rem;
+  font-size: 0.85714286rem;
 }
 .ui.buttons .button,
 .ui.buttons .or,
 .ui.button {
-  font-size: 1rem;
+  font-size: 0.92857143rem;
 }
 .ui.large.buttons .button,
 .ui.large.buttons .or,
@@ -707,7 +617,7 @@
 
 .ui.icon.buttons .button,
 .ui.icon.button {
-  padding: 0.78571429em 0.78571429em 0.78571429em;
+  padding: 1em 1em 1em;
 }
 .ui.icon.buttons .button > .icon,
 .ui.icon.button > .icon {
@@ -838,7 +748,7 @@
 .ui.labeled.icon.buttons .button,
 .ui.labeled.icon.button {
   position: relative;
-  padding-left: 4.07142857em !important;
+  padding-left: 4.5em !important;
   padding-right: 1.5em !important;
 }
 
@@ -853,7 +763,7 @@
   border-bottom-left-radius: inherit;
   text-align: center;
   margin: 0em;
-  width: 2.57142857em;
+  width: 3em;
   background-color: rgba(0, 0, 0, 0.05);
   color: '';
   box-shadow: -1px 0px 0px 0px transparent inset;
@@ -868,7 +778,7 @@
 
 /* Right Labeled */
 .ui[class*="right labeled"].icon.button {
-  padding-right: 4.07142857em !important;
+  padding-right: 4.5em !important;
   padding-left: 1.5em !important;
 }
 .ui[class*="right labeled"].icon.button > .icon {
@@ -958,7 +868,7 @@
 .ui.buttons .or {
   position: relative;
   width: 0.3em;
-  height: 2.57142857em;
+  height: 3em;
   z-index: 3;
 }
 .ui.buttons .or:before {
@@ -970,11 +880,11 @@
   left: 50%;
   background-color: #FFFFFF;
   text-shadow: none;
-  margin-top: -0.89285714em;
-  margin-left: -0.89285714em;
-  width: 1.78571429em;
-  height: 1.78571429em;
-  line-height: 1.78571429em;
+  margin-top: -1em;
+  margin-left: -1em;
+  width: 2em;
+  height: 2em;
+  line-height: 2em;
   color: rgba(0, 0, 0, 0.4);
   font-style: normal;
   font-weight: bold;
@@ -2921,7 +2831,7 @@
 .ui.yellow.buttons .button,
 .ui.yellow.button {
   background-color: #F3DE61;
-  color: #FFFFFF;
+  color: #252729;
   text-shadow: none;
   background-image: none;
 }
@@ -2931,19 +2841,19 @@
 .ui.yellow.buttons .button:hover,
 .ui.yellow.button:hover {
   background-color: #fadf41;
-  color: #FFFFFF;
+  color: #252729;
   text-shadow: none;
 }
 .ui.yellow.buttons .button:focus,
 .ui.yellow.button:focus {
   background-color: #ffe12c;
-  color: #FFFFFF;
+  color: #252729;
   text-shadow: none;
 }
 .ui.yellow.buttons .button:active,
 .ui.yellow.button:active {
   background-color: #efd432;
-  color: #FFFFFF;
+  color: #252729;
   text-shadow: none;
 }
 .ui.yellow.buttons .active.button,
@@ -2951,7 +2861,7 @@
 .ui.yellow.active.button,
 .ui.yellow.button .active.button:active {
   background-color: #fee23d;
-  color: #FFFFFF;
+  color: #252729;
   text-shadow: none;
 }
 
@@ -2992,8 +2902,8 @@
 .ui.inverted.yellow.buttons .button,
 .ui.inverted.yellow.button {
   background-color: transparent;
-  box-shadow: 0px 0px 0px 2px #FFE21F inset !important;
-  color: #FFE21F;
+  box-shadow: 0px 0px 0px 2px #F3DE61 inset !important;
+  color: #F3DE61;
 }
 .ui.inverted.yellow.buttons .button:hover,
 .ui.inverted.yellow.button:hover,
@@ -3008,19 +2918,19 @@
 }
 .ui.inverted.yellow.buttons .button:hover,
 .ui.inverted.yellow.button:hover {
-  background-color: #ffdf05;
+  background-color: #fadf41;
 }
 .ui.inverted.yellow.buttons .button:focus,
 .ui.inverted.yellow.button:focus {
-  background-color: #f5d500;
+  background-color: #ffe12c;
 }
 .ui.inverted.yellow.buttons .active.button,
 .ui.inverted.yellow.active.button {
-  background-color: #ffdf05;
+  background-color: #fee23d;
 }
 .ui.inverted.yellow.buttons .button:active,
 .ui.inverted.yellow.button:active {
-  background-color: #ebcd00;
+  background-color: #efd432;
 }
 
 /* Inverted Basic */
@@ -3034,26 +2944,26 @@
 .ui.inverted.yellow.basic.buttons .button:hover,
 .ui.inverted.yellow.buttons .basic.button:hover,
 .ui.inverted.yellow.basic.button:hover {
-  box-shadow: 0px 0px 0px 2px #ffdf05 inset !important;
-  color: #FFE21F !important;
+  box-shadow: 0px 0px 0px 2px #fadf41 inset !important;
+  color: #F3DE61 !important;
 }
 .ui.inverted.yellow.basic.buttons .button:focus,
 .ui.inverted.yellow.basic.buttons .button:focus,
 .ui.inverted.yellow.basic.button:focus {
-  box-shadow: 0px 0px 0px 2px #f5d500 inset !important;
-  color: #FFE21F !important;
+  box-shadow: 0px 0px 0px 2px #ffe12c inset !important;
+  color: #F3DE61 !important;
 }
 .ui.inverted.yellow.basic.buttons .active.button,
 .ui.inverted.yellow.buttons .basic.active.button,
 .ui.inverted.yellow.basic.active.button {
-  box-shadow: 0px 0px 0px 2px #ffdf05 inset !important;
-  color: #FFE21F !important;
+  box-shadow: 0px 0px 0px 2px #fee23d inset !important;
+  color: #F3DE61 !important;
 }
 .ui.inverted.yellow.basic.buttons .button:active,
 .ui.inverted.yellow.buttons .basic.button:active,
 .ui.inverted.yellow.basic.button:active {
-  box-shadow: 0px 0px 0px 2px #ebcd00 inset !important;
-  color: #FFE21F !important;
+  box-shadow: 0px 0px 0px 2px #efd432 inset !important;
+  color: #F3DE61 !important;
 }
 
 /*-------------------
@@ -3311,17 +3221,61 @@
 
 
 /*******************************
-         Theme Overrides
+         Site Overrides
 *******************************/
 
+.ui.buttons .button,
+.ui.button {
+  letter-spacing: 1px;
+}
+
+/*-------------------
+        Sizes
+--------------------*/
+
+.ui.mini.buttons .button,
+.ui.mini.buttons .or,
+.ui.mini.button {
+  font-size: 0.64285714rem;
+}
+.ui.tiny.buttons .button,
+.ui.tiny.buttons .or,
+.ui.tiny.button {
+  font-size: 0.71428571rem;
+}
+.ui.small.buttons .button,
+.ui.small.buttons .or,
+.ui.small.button {
+  font-size: 0.85714286rem;
+}
+.ui.buttons .button,
+.ui.buttons .or,
+.ui.button {
+  font-size: 0.92857143rem;
+}
+.ui.large.buttons .button,
+.ui.large.buttons .or,
+.ui.large.button {
+  font-size: 1.14285714rem;
+}
+.ui.big.buttons .button,
+.ui.big.buttons .or,
+.ui.big.button {
+  font-size: 1.28571429rem;
+}
+.ui.huge.buttons .button,
+.ui.huge.buttons .or,
+.ui.huge.button {
+  font-size: 1.42857143rem;
+}
+.ui.massive.buttons .button,
+.ui.massive.buttons .or,
+.ui.massive.button {
+  font-size: 1.71428571rem;
+}
 
 
 /*******************************
          Site Overrides
 *******************************/
 
-.ui.buttons .button,
-.ui.buttons .or,
-.ui.button {
-  font-size: 13px;
-}

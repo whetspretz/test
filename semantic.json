@@ -10,7 +10,7 @@
     "output": {
       "packaged": "../dist/",
       "uncompressed": "../dist/components/",
-      "compressed": "../dist/components/",
+      "compressed": "../dist/components/min",
       "themes": "../dist/themes/"
     },
     "clean": "../dist/"
@@ -18,7 +18,13 @@
   "components": [
     "reset",
     "site",
-    "button"
+    "button",
+    "icon",
+    "input",
+    "label",
+    "menu",
+    "container",
+    "grid"
   ],
   "version": "2.1.4"
 }
