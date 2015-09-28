@@ -679,6 +679,22 @@ body {
   font-style: normal;
 }
 
+#masthead .ui.logo {
+  position: relative;
+  top: -3px;
+}
+
+#masthead .ui.button {
+  padding: 14px 27px;
+  font-size: 12px;
+}
+
+#masthead nav .item {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}
+
 /*******************************
          Site Overrides
 *******************************/
@@ -4369,7 +4385,7 @@ body {
 }
 
 /*******************************
-         Site Overrides
+         Button Overrides
 *******************************/
 
 .ui.buttons .button,
@@ -4427,6 +4443,44 @@ body {
 .ui.massive.buttons .or,
 .ui.massive.button {
   font-size: 1.71428571rem;
+}
+
+/* Inverted link */
+
+.ui.inverted.black.link.buttons .button,
+.ui.inverted.black.buttons .link.button,
+.ui.inverted.black.link.button {
+  background-color: transparent;
+  box-shadow: none !important;
+  color: #FFFFFF !important;
+}
+
+.ui.inverted.black.link.buttons .button:hover,
+.ui.inverted.black.buttons .link.button:hover,
+.ui.inverted.black.link.button:hover {
+  box-shadow: none !important;
+  color: #FFFFFF !important;
+}
+
+.ui.inverted.black.link.buttons .button:focus,
+.ui.inverted.black.link.buttons .button:focus,
+.ui.inverted.black.link.button:focus {
+  box-shadow: none !important;
+  color: #545454 !important;
+}
+
+.ui.inverted.black.link.buttons .active.button,
+.ui.inverted.black.buttons .link.active.button,
+.ui.inverted.black.link.active.button {
+  box-shadow: none !important;
+  color: #FFFFFF !important;
+}
+
+.ui.inverted.black.link.buttons .button:active,
+.ui.inverted.black.buttons .link.button:active,
+.ui.inverted.black.link.button:active {
+  box-shadow: none !important;
+  color: #FFFFFF !important;
 }
 
 /*******************************
@@ -11230,7 +11284,7 @@ Floated Menu / Item
 
 .ui.inverted.menu {
   border: 0px solid transparent;
-  background: #1B1C1D;
+  background: #252729;
   box-shadow: none;
 }
 
@@ -11949,6 +12003,10 @@ Floated Menu / Item
 .ui.huge.vertical.menu {
   width: 20rem;
 }
+
+/*******************************
+         Menu Overrides
+*******************************/
 
 /*******************************
          Site Overrides

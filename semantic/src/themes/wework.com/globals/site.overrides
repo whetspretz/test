@@ -16,3 +16,19 @@ body {
   font-weight: normal;
   font-style: normal;
 }
+
+#masthead .ui.logo {
+  position: relative;
+  top: -3px;
+}
+
+#masthead .ui.button {
+  padding: 14px 27px;
+  font-size: 12px;
+}
+
+#masthead nav .item {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 12px;
+}

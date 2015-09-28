@@ -6,8 +6,11 @@
       Collection
 --------------------*/
 
+/* Inverted */
+@invertedBackground: @anchorage;
+
 /* Menu */
 @minHeight: 75px;
 
 /* Divider */
-@dividerSize: 0; //1px;
+@dividerSize: 0;

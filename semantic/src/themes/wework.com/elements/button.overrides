@@ -1,5 +1,5 @@
 /*******************************
-         Site Overrides
+         Button Overrides
 *******************************/
 
 .ui.buttons .button,
@@ -51,4 +51,38 @@
 .ui.massive.buttons .or,
 .ui.massive.button {
   font-size: @massive;
+}
+
+
+/* Inverted link */
+.ui.inverted.black.link.buttons .button,
+.ui.inverted.black.buttons .link.button,
+.ui.inverted.black.link.button {
+  background-color: transparent;
+  box-shadow: none !important;
+  color: @white !important;
+}
+.ui.inverted.black.link.buttons .button:hover,
+.ui.inverted.black.buttons .link.button:hover,
+.ui.inverted.black.link.button:hover {
+  box-shadow: none !important;
+  color: @white !important;
+}
+.ui.inverted.black.link.buttons .button:focus,
+.ui.inverted.black.link.buttons .button:focus,
+.ui.inverted.black.link.button:focus {
+  box-shadow: none !important;
+  color: @lightBlack !important;
+}
+.ui.inverted.black.link.buttons .active.button,
+.ui.inverted.black.buttons .link.active.button,
+.ui.inverted.black.link.active.button {
+  box-shadow: none !important;
+  color: @white !important;
+}
+.ui.inverted.black.link.buttons .button:active,
+.ui.inverted.black.buttons .link.button:active,
+.ui.inverted.black.link.button:active {
+  box-shadow: none !important;
+  color: @white !important;
 }

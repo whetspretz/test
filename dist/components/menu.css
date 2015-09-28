@@ -1352,7 +1352,7 @@ Floated Menu / Item
 
 .ui.inverted.menu {
   border: 0px solid transparent;
-  background: #1B1C1D;
+  background: #252729;
   box-shadow: none;
 }
 
@@ -1971,6 +1971,12 @@ Floated Menu / Item
 .ui.huge.vertical.menu {
   width: 20rem;
 }
+
+
+/*******************************
+         Menu Overrides
+*******************************/
+
 
 
 /*******************************

@@ -19,23 +19,31 @@
 </head>
 <body>
 
-<div class="ui inverted menu">
+<div id="masthead" class="ui inverted menu">
   <div class="ui container">
-    <div class="header item">WeWork</div>
-    <div class="right menu">
-      <div class="item">
-        <div class="ui transparent inverted icon input">
-          <i class="search icon"></i>
-          <input type="text" placeholder="Search">
-        </div>
-      </div>
-      <div class="item">
-        <div class="ui inverted">
-          <a href="#login" class="ui inverted basic button">Login</a>
-          <a href="#login" class="ui inverted yellow button">Sign Up</a>
-        </div>
-      </div>
+    <div class="header item">
+      <img class="ui logo" src="../dist/themes/wework.com/assets/images/wework.svg" width="122" height="28">
     </div>
+    <nav class="right menu nav">
+      <!--
+      <div class="ui right aligned category search item">
+        <div class="ui transparent inverted icon input">
+          <input class="prompt" type="text" placeholder="Search animals...">
+          <i class="search link icon"></i>
+        </div>
+        <div class="results"></div>
+      </div>
+      -->
+
+      <a href="#locations" class="item">Locations</a>
+      <a href="#pricing" class="item">Pricing</a>
+      <div class="item">
+        <div class="ui">
+          <a href="#login" class="ui inverted button">Login</a>
+          <a href="#signup" class="ui inverted yellow button">Sign Up</a>
+        </div>
+      </div>
+    </nav>
   </div>
 </div>
 
@@ -43,10 +51,7 @@
   <div class="ui right labeled input">
     <input type="text" placeholder="Hello">
     <button class="ui button">Hello There</button>
-  </div>
-  <button class="yellow ui button">Join Now</button>
 
-  <div>
     <button class="yellow ui button">Join Now</button>
     <button class="ui facebook button">
       <i class="facebook icon"></i>
