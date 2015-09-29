@@ -27,6 +27,7 @@
     "better-console": "^0.2.4",
     "del": "^2.0.2",
     "extend": "^3.0.0",
+    "ghost-grid": "github:reklino/ghost-grid",
     "gulp": "^3.9.0",
     "gulp-autoprefixer": "^3.0.2",
     "gulp-chmod": "^1.2.0",

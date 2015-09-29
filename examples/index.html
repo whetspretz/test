@@ -15,7 +15,23 @@
     s.parentNode.insertBefore(wf, s);
   })();
   </script>
+  <link rel="stylesheet" type="text/css" href="../node_modules/ghost-grid/dist/ghost-grid.css">
   <link rel="stylesheet" type="text/css" href="../dist/semantic.css">
+
+  <style type="text/css">
+  .ui.grid .column:nth-child(1)   { background-color: #FFCDD2; }
+  .ui.grid .column:nth-child(2)   { background-color: #F8BBD0; }
+  .ui.grid .column:nth-child(3)   { background-color: #E1BEE7; }
+  .ui.grid .column:nth-child(4)   { background-color: #D1C4E9; }
+  .ui.grid .column:nth-child(5)   { background-color: #C5CAE9; }
+  .ui.grid .column:nth-child(6)   { background-color: #BBDEFB; }
+  .ui.grid .column:nth-child(7)   { background-color: #B3E5FC; }
+  .ui.grid .column:nth-child(8)   { background-color: #B2EBF2; }
+  .ui.grid .column:nth-child(9)   { background-color: #B2DFDB; }
+  .ui.grid .column:nth-child(10)  { background-color: #C8E6C9; }
+  .ui.grid .column:nth-child(11)  { background-color: #DCEDC8; }
+  .ui.grid .column:nth-child(12)  { background-color: #F0F4C3; }
+  </style>
 </head>
 <body>
 
@@ -48,21 +64,80 @@
 </div>
 
 <div class="ui container">
-  <div class="ui right labeled input">
-    <input type="text" placeholder="Hello">
-    <button class="ui button">Hello There</button>
+  <div class="ui grid">
+    <div class="ten wide column">
+      <div class="ui right labeled input">
+        <input type="text" placeholder="Hello">
+        <button class="ui button">Hello There</button>
 
-    <button class="yellow ui button">Join Now</button>
-    <button class="ui facebook button">
-      <i class="facebook icon"></i>
-      Facebook
-    </button>
-    <button class="ui twitter button">
-      <i class="twitter icon"></i>
-      Twitter
-    </button>
+        <button class="yellow ui button">Join Now</button>
+        <button class="ui facebook button">
+          <i class="facebook icon"></i>
+          Facebook
+        </button>
+        <button class="ui twitter button">
+          <i class="twitter icon"></i>
+          Twitter
+        </button>
+      </div>
+    </div>
+    <div class="two wide column"></div>
+  </div>
+
+  <div class="ui grid">
+    <div class="column">one</div>
+    <div class="column">two</div>
+    <div class="column">three</div>
+    <div class="column">four</div>
+    <div class="column">five</div>
+    <div class="column">six</div>
+    <div class="column">seve</div>
+    <div class="column">eight</div>
+    <div class="column">nine</div>
+    <div class="column">ten</div>
+    <div class="column">eleven</div>
+    <div class="column">twelve</div>
   </div>
 </div>
+
+<script type="text/javascript" src="../node_modules/ghost-grid/dist/ghost-grid.js"></script>
+<script type="text/javascript">
+  var ghost = new Ghost();
+  ghost.align = 'center',
+  ghost.opacity = 0.65,
+  ghost.containingElement = document.body,
+  ghost.breaks = [
+      {
+          point: "(min-width: 300px)",
+          containerWidth: 450,
+          columns: 3,
+          gutters: 1/4,
+          baseLineHeight: (30/18) + 'em'
+      },
+      {
+          point: "(min-width: 700px)",
+          containerWidth: 750,
+          columns: 6,
+          gutters: 1/4,
+          baseLineHeight: (30/18) + 'em'
+      },
+      {
+          point: "(min-width: 1100px)",
+          containerWidth: 960,
+          columns: 12,
+          gutters: 1/2,
+          baseLineHeight: (30/18) + 'em'
+      },
+      {
+          point: "(min-width: 1600px)",
+          containerWidth: 1200,
+          columns: 12,
+          gutters: 1/2,
+          baseLineHeight: (30/18) + 'em'
+      }
+  ];
+  ghost.summon();
+</script>
 
 </body>
 </html>
