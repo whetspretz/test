@@ -24,7 +24,8 @@
     "label",
     "menu",
     "container",
-    "grid"
+    "grid",
+    "header"
   ],
   "version": "2.1.4"
 }

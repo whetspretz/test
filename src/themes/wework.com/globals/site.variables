@@ -6,8 +6,8 @@
        Fonts
 --------------------*/
 @fontName          : 'Apercu Regular';
-
-@headerFont        : @fontName, 'Helvetica Neue', Calibri, Roboto, sans-serif;
+@fontNameBold      : 'Apercu Bold';
+@headerFont        : @fontNameBold, 'Helvetica Neue', Calibri, Roboto, sans-serif;
 @pageFont          : @fontName, 'Helvetica Neue', Calibri, Roboto, sans-serif;
 
 @importGoogleFonts : false;
@@ -51,6 +51,11 @@
 --------------------*/
 @anchorage        : #252729;
 @venice           : #F3DE61;
+@london           : #575757;
+@detroit          : #808080;
+@portland         : #C2C2C2;
+@pittsburgh       : #E0E0E0;
+@syracuse         : #F4F4F4;
 @yellow           : @venice;
 @lightYellow      : @venice;
 
@@ -60,3 +65,29 @@
 --------------------*/
 @primaryColor        : @anchorage;
 @secondaryColor      : @venice;
+
+
+/*-------------------
+      Paragraph
+--------------------*/
+
+@paragraphMargin     : 0em 0em 0.5em;
+@paragraphLineHeight : 1.5em;
+
+// small body text
+@smallParagraphFontSize : 0.786rem;
+
+
+/*--------------
+  Page Heading
+---------------*/
+
+@headerFontWeight : bold;
+@headerLineHeight : 1.1em;
+
+@h1 : 3.571rem;
+@h2 : 2.714rem;
+@h3 : 2.286rem;
+@h4 : 1.786rem;
+@h5 : 1.286rem;
+
