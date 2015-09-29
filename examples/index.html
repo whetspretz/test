@@ -19,18 +19,22 @@
   <link rel="stylesheet" type="text/css" href="../dist/semantic.css">
 
   <style type="text/css">
-  .ui.grid.colors .column:nth-child(1)   { background-color: #FFCDD2; }
-  .ui.grid.colors .column:nth-child(2)   { background-color: #F8BBD0; }
-  .ui.grid.colors .column:nth-child(3)   { background-color: #E1BEE7; }
-  .ui.grid.colors .column:nth-child(4)   { background-color: #D1C4E9; }
-  .ui.grid.colors .column:nth-child(5)   { background-color: #C5CAE9; }
-  .ui.grid.colors .column:nth-child(6)   { background-color: #BBDEFB; }
-  .ui.grid.colors .column:nth-child(7)   { background-color: #B3E5FC; }
-  .ui.grid.colors .column:nth-child(8)   { background-color: #B2EBF2; }
-  .ui.grid.colors .column:nth-child(9)   { background-color: #B2DFDB; }
-  .ui.grid.colors .column:nth-child(10)  { background-color: #C8E6C9; }
-  .ui.grid.colors .column:nth-child(11)  { background-color: #DCEDC8; }
-  .ui.grid.colors .column:nth-child(12)  { background-color: #F0F4C3; }
+  .grids .ui.grid .column:nth-child(1)   { background-color: #FFCDD2; }
+  .grids .ui.grid .column:nth-child(2)   { background-color: #F8BBD0; }
+  .grids .ui.grid .column:nth-child(3)   { background-color: #E1BEE7; }
+  .grids .ui.grid .column:nth-child(4)   { background-color: #D1C4E9; }
+  .grids .ui.grid .column:nth-child(5)   { background-color: #C5CAE9; }
+  .grids .ui.grid .column:nth-child(6)   { background-color: #BBDEFB; }
+  .grids .ui.grid .column:nth-child(7)   { background-color: #B3E5FC; }
+  .grids .ui.grid .column:nth-child(8)   { background-color: #B2EBF2; }
+  .grids .ui.grid .column:nth-child(9)   { background-color: #B2DFDB; }
+  .grids .ui.grid .column:nth-child(10)  { background-color: #C8E6C9; }
+  .grids .ui.grid .column:nth-child(11)  { background-color: #DCEDC8; }
+  .grids .ui.grid .column:nth-child(12)  { background-color: #F0F4C3; }
+  .grids .ui.grid .column:nth-child(13)  { background-color: #FFF9C4; }
+  .grids .ui.grid .column:nth-child(14)  { background-color: #FFECB3; }
+  .grids .ui.grid .column:nth-child(15)  { background-color: #FFE0B2; }
+  .grids .ui.grid .column:nth-child(16)  { background-color: #FFCCBC; }
 
   /*******************************
         Styleguide Styles
@@ -108,163 +112,176 @@
     </div>
   </div>
 
-    <!-- GRID -->
-    <div class="sg-section">
+  <!-- GRID -->
+  <div class="sg-section grids">
     <h1 class="sg-header">Grid</h1>
-      <div class="ui grid colors">
-        <div class="column">one</div>
-        <div class="column">two</div>
-        <div class="column">three</div>
-        <div class="column">four</div>
-        <div class="column">five</div>
-        <div class="column">six</div>
-        <div class="column">seve</div>
-        <div class="column">eight</div>
-        <div class="column">nine</div>
-        <div class="column">ten</div>
-        <div class="column">eleven</div>
-        <div class="column">twelve</div>
-      </div>
+
+    <div class="ui grid">
+      <div class="four wide column"></div>
+      <div class="four wide column"></div>
+      <div class="four wide column"></div>
+      <div class="four wide column"></div>
     </div>
+
+    <div class="ui grid">
+      <div class="column">01</div>
+      <div class="column">02</div>
+      <div class="column">03</div>
+      <div class="column">04</div>
+      <div class="column">05</div>
+      <div class="column">06</div>
+      <div class="column">07</div>
+      <div class="column">08</div>
+      <div class="column">09</div>
+      <div class="column">10</div>
+      <div class="column">11</div>
+      <div class="column">12</div>
+      <div class="column">13</div>
+      <div class="column">14</div>
+      <div class="column">15</div>
+      <div class="column">16</div>
+    </div>
+  </div>
 
   <!-- TYPOGRAPHY -->
   <div class="sg-section">
     <h1 class="sg-header">Typography</h1>
 
-      <!-- Page Headers -->
-      <div class="sg-subsection">
-        <h2 class="sg-subheader">Page Headers (h1-h5)</h2>
-        <div class="ui grid">
-          <div class="three wide column">
-            <h1 class="ui header">Mighty</h1>
-          </div>
-          <div class="three wide column">
-            <h2 class="ui header">Big</h2>
-          </div>
-          <div class="three wide column">
-            <h3 class="ui header">Fair</h3>
-          </div>
-          <div class="three wide column">
-            <h4 class="ui header">Meager</h4>
-          </div>
-          <div class="three wide column">
-            <h5 class="ui header">Meh</h5>
-          </div>
+    <!-- Page Headers -->
+    <div class="sg-subsection">
+      <h2 class="sg-subheader">Page Headers (h1-h5)</h2>
+      <div class="ui grid">
+        <div class="three wide column">
+          <h1 class="ui header">Mighty</h1>
+        </div>
+        <div class="three wide column">
+          <h2 class="ui header">Big</h2>
+        </div>
+        <div class="three wide column">
+          <h3 class="ui header">Fair</h3>
+        </div>
+        <div class="three wide column">
+          <h4 class="ui header">Meager</h4>
+        </div>
+        <div class="three wide column">
+          <h5 class="ui header">Meh</h5>
         </div>
       </div>
+    </div>
 
-      <!-- Content Headers -->
-      <div class="sg-subsection">
-        <h2 class="sg-subheader">Content Headers</h2>
-        <div class="ui grid">
-          <div class="six wide column">
-            <div class="ui mighty header">Mighty</div>
-            <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
-          </div>
-          <div class="six wide column">
-            <div class="ui big header">Big</div>
-            <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
-          </div>
-          <div class="six wide column">
-            <div class="ui fair header">Fair</div>
-            <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
-          </div>
-          <div class="six wide column">
-            <div class="ui meager header">Meager</div>
-            <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
-          </div>
-          <div class="six wide column">
-            <div class="ui meh header">Meh</div>
-            <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
-          </div>
-        </div>
-      </div>
-
-      <!-- Sub Headers -->
-      <div class="sg-subsection">
-        <h2 class="sg-subheader">Sub Headers</h2>
-        <div class="ui">
-          <h1 class="ui header">
-            Mighty
-            <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
-          </h1>
-          <h2 class="ui header">
-            Big
-            <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
-          </h2>
-          <h3 class="ui header">
-            Fair
-            <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
-          </h3>
-          <h4 class="ui header">
-            Meager
-            <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
-          </h4>
-          <h5 class="ui header">
-            Meh
-            <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
-          </h5>
-        </div>
-      </div>
-
-      <!-- Body Text -->
-      <div class="sg-subsection">
-        <h2 class="sg-subheader">Body Text</h2>
-        <div class="ui">
+    <!-- Content Headers -->
+    <div class="sg-subsection">
+      <h2 class="sg-subheader">Content Headers</h2>
+      <div class="ui grid">
+        <div class="six wide column">
+          <div class="ui mighty header">Mighty</div>
           <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
-          <p>Fashion axe art party wolf, trust fund four dollar toast disrupt health goth messenger bag. Occupy Vice lomo trust fund Williamsburg. 90's fashion axe roof party skateboard ethical, selvage pop-up Williamsburg sriracha.</p>
+        </div>
+        <div class="six wide column">
+          <div class="ui big header">Big</div>
+          <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
+        </div>
+        <div class="six wide column">
+          <div class="ui fair header">Fair</div>
+          <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
+        </div>
+        <div class="six wide column">
+          <div class="ui meager header">Meager</div>
+          <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
+        </div>
+        <div class="six wide column">
+          <div class="ui meh header">Meh</div>
+          <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
         </div>
       </div>
+    </div>
 
-      <!-- Small Body Text -->
-      <div class="sg-subsection">
-        <h2 class="sg-subheader">Small Body Text</h2>
-        <div class="ui">
-          <p class="ui small">Heirloom small batch Pitchfork, hashtag craft beer vinyl Helvetica iPhone next level Shoreditch PBR&B Truffaut biodiesel meditation bicycle rights. Banjo readymade PBR&B authentic, freegan Wes Anderson Austin Neutra wayfarers post-ironic next level High Life tote bag beard. Tumblr street art distillery cliche, Marfa keytar lo-fi four loko cronut blog aesthetic organic banh mi Vice whatever.</p>
-          <p class="ui small">Cornhole 90's normcore church-key direct trade chillwave, seitan kogi viral mixtape meditation Odd Future ennui roof party. Readymade taxidermy meh butcher. Tumblr freegan umami, cliche church-key Bushwick mlkshk street art seitan swag occupy PBR cray shabby chic post-ironic. Tilde kitsch wayfarers aesthetic brunch fap.</p>
-        </div>
+    <!-- Sub Headers -->
+    <div class="sg-subsection">
+      <h2 class="sg-subheader">Sub Headers</h2>
+      <div class="ui">
+        <h1 class="ui header">
+          Mighty
+          <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
+        </h1>
+        <h2 class="ui header">
+          Big
+          <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
+        </h2>
+        <h3 class="ui header">
+          Fair
+          <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
+        </h3>
+        <h4 class="ui header">
+          Meager
+          <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
+        </h4>
+        <h5 class="ui header">
+          Meh
+          <div class="sub header">Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard.</div>
+        </h5>
       </div>
+    </div>
 
+    <!-- Body Text -->
+    <div class="sg-subsection">
+      <h2 class="sg-subheader">Body Text</h2>
+      <div class="ui">
+        <p>Swag selfies kogi plaid jean shorts. Shabby chic Banksy fixie, deep v try-hard letterpress skateboard Marfa wayfarers meggings crucifix YOLO. Meh Thundercats kale chips, Austin keytar hashtag taxidermy freegan.</p>
+        <p>Fashion axe art party wolf, trust fund four dollar toast disrupt health goth messenger bag. Occupy Vice lomo trust fund Williamsburg. 90's fashion axe roof party skateboard ethical, selvage pop-up Williamsburg sriracha.</p>
+      </div>
+    </div>
+
+    <!-- Small Body Text -->
+    <div class="sg-subsection">
+      <h2 class="sg-subheader">Small Body Text</h2>
+      <div class="ui">
+        <p class="ui small">Heirloom small batch Pitchfork, hashtag craft beer vinyl Helvetica iPhone next level Shoreditch PBR&B Truffaut biodiesel meditation bicycle rights. Banjo readymade PBR&B authentic, freegan Wes Anderson Austin Neutra wayfarers post-ironic next level High Life tote bag beard. Tumblr street art distillery cliche, Marfa keytar lo-fi four loko cronut blog aesthetic organic banh mi Vice whatever.</p>
+        <p class="ui small">Cornhole 90's normcore church-key direct trade chillwave, seitan kogi viral mixtape meditation Odd Future ennui roof party. Readymade taxidermy meh butcher. Tumblr freegan umami, cliche church-key Bushwick mlkshk street art seitan swag occupy PBR cray shabby chic post-ironic. Tilde kitsch wayfarers aesthetic brunch fap.</p>
+      </div>
+    </div>
   </div>
 </div>
 
 <script type="text/javascript" src="../node_modules/ghost-grid/dist/ghost-grid.js"></script>
 <script type="text/javascript">
   var ghost = new Ghost();
+
   ghost.align = 'center',
   ghost.opacity = 0.65,
   ghost.containingElement = document.body,
   ghost.breaks = [
-      {
-          point: "(min-width: 300px)",
-          containerWidth: 450,
-          columns: 3,
-          gutters: 1/4,
-          baseLineHeight: (30/18) + 'em'
-      },
-      {
-          point: "(min-width: 700px)",
-          containerWidth: 750,
-          columns: 6,
-          gutters: 1/4,
-          baseLineHeight: (30/18) + 'em'
-      },
-      {
-          point: "(min-width: 1100px)",
-          containerWidth: 960,
-          columns: 12,
-          gutters: 1/2,
-          baseLineHeight: (30/18) + 'em'
-      },
-      {
-          point: "(min-width: 1600px)",
-          containerWidth: 1200,
-          columns: 12,
-          gutters: 1/2,
-          baseLineHeight: (30/18) + 'em'
-      }
+    {
+      point: "(min-width: 300px)",
+      containerWidth: 450,
+      columns: 12,
+      gutters: 1/4,
+      baseLineHeight: (30/14) + 'em'
+    },
+    {
+      point: "(min-width: 700px)",
+      containerWidth: 750,
+      columns: 12,
+      gutters: 1/4,
+      baseLineHeight: (30/14) + 'em'
+    },
+    {
+      point: "(min-width: 1100px)",
+      containerWidth: 1127,
+      columns: 12,
+      gutters: 1/4,
+      baseLineHeight: (30/14) + 'em'
+    },
+    {
+      point: "(min-width: 1600px)",
+      containerWidth: 1200,
+      columns: 12,
+      gutters: 1/4,
+      baseLineHeight: (30/14) + 'em'
+    }
   ];
-  //ghost.summon();
+
+  // ghost.summon();
 </script>
 
 </body>
