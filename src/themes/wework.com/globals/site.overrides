@@ -34,6 +34,41 @@ body {
 }
 
 /*******************************
+             Colors
+*******************************/
+.venice {
+  color: @venice;
+  &:hover { color: @venice-hover; }
+}
+.anchorage {
+  color: @anchorage;
+  &:hover { color: @anchorage-hover; }
+}
+.london {
+  color: @london;
+  &:hover { color: @london-hover; }
+}
+.detroit {
+  color: @detroit;
+  &:hover { color: @detroit-hover; }
+}
+.portland {
+  color: @portland;
+  &:hover { color: @portland-hover; }
+}
+.pittsburgh {
+  color: @pittsburgh;
+  &:hover { color: @pittsburgh-hover; }
+}
+.syracuse {
+  color: @syracuse;
+  &:hover { color: @syracuse-hover; }
+}
+.melbourne {
+  color: @melbourne;
+}
+
+/*******************************
               Text
 *******************************/
 

@@ -49,15 +49,34 @@
 /*-------------------
       Site Colors
 --------------------*/
-@anchorage        : #252729;
 @venice           : #F3DE61;
+@melbourne        : #49B7C2;
+@anchorage        : #252729;
 @london           : #575757;
 @detroit          : #808080;
 @portland         : #C2C2C2;
 @pittsburgh       : #E0E0E0;
 @syracuse         : #F4F4F4;
+
+// hover state
+@venice-hover     : #EFD744;
+@anchorage-hover  : #3A3D41;
+@london-hover     : @anchorage;
+@detroit-hover    : @london;
+@portland-hover   : @detroit;
+@pittsburgh-hover : @portland;
+@syracuse-hover   : @pittsburgh;
+
+// alt names
+@blue             : @melbourne;
 @yellow           : @venice;
-@lightYellow      : @venice;
+@lightYellow      : @venice-hover;
+@black            : @anchorage;
+@darkGray         : @london;
+@gray             : @detroit;
+@lightGray        : @portland;
+@lighterGray      : @pittsburgh;
+@lightestGray     : @syracuse;
 
 
 /*-------------------
