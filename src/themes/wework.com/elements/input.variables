@@ -1,6 +1,0 @@
-/*******************************
-    User Variable Overrides
-*******************************/
-
-// match button height
-@lineHeightOffset: ((@lineHeight - 0.75em) / 2);
