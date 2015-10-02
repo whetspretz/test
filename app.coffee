@@ -1,6 +1,7 @@
 axis         = require 'axis'
 rupture      = require 'rupture'
-lost         = require 'lost'
+jeet         = require 'jeet'
+# lost         = require 'lost'
 rucksack     = require 'rucksack-css'
 css_pipeline = require 'css-pipeline'
 
@@ -20,12 +21,15 @@ module.exports =
   ]
 
   stylus:
-    use: [axis(), rupture()]
+    use: [jeet(), axis(), rupture()]
     'include css': true
     sourcemap: true
 
   postcss:
-    use: [lost(), rucksack(fallbacks: true, autoprefixer: true)]
+    use: [
+      # lost(),
+      rucksack(fallbacks: true, autoprefixer: true)
+    ]
 
   jade:
     pretty: true

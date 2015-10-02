@@ -1,5 +1,6 @@
 @import '_settings'
 @import 'fonts/apercu'
+@import 'jeet'
 
 // global-reset()
 normalize-css()
@@ -14,13 +15,24 @@ html.wf-loading
 html.wf-active
   visibility: visible
 
-h1
-  -heading(3.571) // 50px
-  margin: 0;
-h2
-  -heading(2.714) // 38px
-  margin: 0;
+h1,h2,h3,h4,h5,h6,
+.h1,.h2,.h3,.h4,.h5,.h6
+  margin: 0
 
+h1, .h1, .h-mighty
+  -heading(3.125) // 50px
+h2, .h2, .h-big
+  -heading(2.375) // 38px
+h3, .h3, .h-fair
+  -heading(2.0)   // 32px
+h4, .h4, .h-meager
+  -heading(1.563) // 25px
+h5, .h5, .h-meh
+  -heading(1.125) // 18px
+h6, .h6, .h-min
+  -heading(1.0)   // 16px
 
 .sg-wrapper
-  lost-center: 900px
+  // TODO: when we get lost working
+  // lost-center: 900px
+  center: 900px
