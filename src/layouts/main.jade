@@ -7,11 +7,12 @@ head
   meta(name='description', content='description of your site')
   meta(name='author', content= "author of the site")
   meta(name="viewport" content="width=device-width, initial-scale=1")
-  title= _path
+  title= title
 
   != css()
 
-body
-  h1 All the styles!
+body(id= _path.match(/(\w+)\.html$/)[1])
+  .sg-wrapper
+    h1.sg-header WeWork UI Kit (OUI)
 
-  block content
+    block content
