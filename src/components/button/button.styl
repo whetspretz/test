@@ -1,0 +1,26 @@
+@import '../../assets/css/_settings'
+
+button, .button
+  $bg-color = $portland
+  $text-color = $anchorage
+  font-size: $font-size
+  padding: .75em 1.25em
+  background-color: $bg-color
+  color: $text-color
+
+  cursor: pointer
+  font-weight: bold
+  line-height: 1
+  text-align: center
+  text-decoration: none
+  display: inline-block
+  border: none
+  border-radius: 0
+  no-select()
+
+  &:hover, &:focus
+    background-color: darken($bg-color, 5%)
+    border: none
+
+  &:active
+    background-color: darken($bg-color, 10%)
