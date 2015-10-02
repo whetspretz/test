@@ -5,6 +5,7 @@ css_pipeline = require 'css-pipeline'
 
 module.exports =
   ignores: ['readme.md', '**/layout.*', '**/_*', '.gitignore', '.npmignore', 'ship.*conf']
+
   dump_dirs: ['src', 'assets']
   output: 'dist'
   debug: 'true'
@@ -16,9 +17,6 @@ module.exports =
 
   stylus:
     use: [axis(), rupture(), autoprefixer()]
-    sourcemap: true
-
-  'coffee-script':
     sourcemap: true
 
   jade:
