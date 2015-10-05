@@ -1,7 +1,7 @@
 @import '../../assets/css/_base'
 
-button, .button
-  $bg-color = $portland
+.oui-button
+  $bg-color = $venice
   $text-color = $anchorage
   padding: .65em 1.25em
   background-color: $bg-color
@@ -25,3 +25,18 @@ button, .button
   &:active
     background-color: darken($bg-color, 10%)
     border-color: darken($bg-color, 10%)
+
+  &.oui-button--secondary
+    $bg-color = $anchorage
+    $text-color = $syracuse
+    background-color: $bg-color
+    color: $text-color
+    border: 2px solid $bg-color
+
+    &:hover, &:focus
+      background-color: darken($bg-color, 5%)
+      border-color: darken($bg-color, 5%)
+
+    &:active
+      background-color: darken($bg-color, 10%)
+      border-color: darken($bg-color, 10%)
