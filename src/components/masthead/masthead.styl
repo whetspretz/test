@@ -1,5 +1,14 @@
 @import '../../assets/css/_base'
 
-.masthead
-  height: 85px
+.oui-masthead
+  position: relative
+  height: $masthead-height
   background-color: $anchorage
+
+.oui-masthead--title
+  vertically-align()
+
+  .logo
+    position: relative
+    top: -4px
+    ir('../../img/wework.svg', 122px 28px)

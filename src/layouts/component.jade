@@ -11,7 +11,7 @@ head
 
   != css('../../')
 
-body
+body(id= _path.match(/(\w+)\.html$/)[1])
   h1 Component!
 
   block content
